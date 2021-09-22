@@ -1,0 +1,76 @@
+Test scenatios for BlazeDemo.com
+============================
+Check whether user will be aable to select the Departure an d desitination cities 
+Check whether List of available flights are listed when user clicks on FindFlights button by providing Departing city and Destination city
+Verify Passenger Detials page displays when use clicks on "Choose This flight" button
+
+Check whether name field accepts value of length 100 characters
+Check whether name field accepts value as combination of alphanumeric and unicode or special characters
+Verify whether name field accepts number as value
+Verify whether name field accepts multiple spaces as value
+Check whether address field accepts value of length 1000 characters
+Check whether address field accepts value as combination of alphanumeric and unicode or special characters
+Verify whether address field accepts number as value
+Verify whether address field accepts multiple spaces as value
+
+Check whether city field accepts value of length 100 characters
+Check whether city field accepts value as combination of alphanumeric and unicode or special characters
+Verify whether city field accepts number as value
+Verify whether city field accepts multiple spaces as value
+Verify whether city field accepts non exisitng city name as value
+
+Check whether state field accepts value of length 100 characters
+Check whether state field accepts value as combination of alphanumeric and unicode or special characters
+Verify whether state field accepts number as value
+Verify whether state field accepts multiple spaces as value
+Verify whether state field accepts non exisitng city name as value
+
+
+Check whether  Zipcode field accepts value of length 100 characters
+Check whether  Zipcode field accepts value as combination of alphanumeric and unicode or special characters
+Verify whether Zipcode field accepts number as value
+Verify whether Zipcode field accepts multiple spaces as value
+Verify whether Zipcode field accepts non exisitng city name as value
+
+
+Verify whether user can select the card type visa
+Verify whether user can select the card type Amex
+Verify whether user can select the card type Diner's club
+
+Verify whehter Credit card Number field accepts valid Credit card Number
+Verify error message when user enters non existing Credit card Number
+Verify error message when user enters Credit card Number whose validity got expired
+
+verify the error message when user enters invlaid month value ex: 13
+verify Cresdit card month field with valid month value  ex: 07 or 7
+Verify Credit card year field with valid and invalid year values Ex: 2021, 9999, 99999 0200
+
+
+Verify Error message when invalid owner name entered for a credit card name field
+Verify Name on card filed with valid owner name 
+
+Verify whether Remember me button by switching between different pages
+Check whether successful message "Thank you for your purchase today!" displays when user clicks on purchase flight button by providing all valid data
+Verify the error message dispayed when user clicks on purchase flight button by keeping some of the fields blank
+Verify whether user can able to proceed with purchasing flight ticket when optional fields are kept blank
+Verify whether user can able to proceed with purchasing flight ticket when mandatory fields are kept blank
+
+
+Verify the purchase successful message and purchase details like Id, Status, Amount, card number, Expiration, Auth code, Date 
+
+Verify the JSON response displayed on purchase confirmamtion page 
+
+
+We can also have additional tests if below features are provided in the application
+==================================
+Selecting class,
+Selecting return ticket booking
+To verify remainder option,  can be set to 3hours, 4hours, 5 hours prior to journey
+To check the confirmaiton message received at user mobile
+To check the cancellation option
+To set notification on flight status (delayed/cancelled)
+Payment options credit card/debit/UPI/QR code 
+Maney refund on ticket cancelltion
+
+
+

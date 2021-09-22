@@ -1,0 +1,6 @@
+INFO    2021-09-23 03:11:59,840 [main] devpinoyLogger  - Chrome browser launched !!!
+INFO    2021-09-23 03:12:00,793 [main] devpinoyLogger  - Navigated to: https://blazedemo.com/
+INFO    2021-09-23 03:12:01,052 [main] devpinoyLogger  - Inside the findFlights Test
+INFO    2021-09-23 03:12:01,241 [main] devpinoyLogger  - Selected Departure City: //select[@name='fromPort']
+INFO    2021-09-23 03:12:01,323 [main] devpinoyLogger  - Selected Departure City: //select[@name='toPort']
+INFO    2021-09-23 03:12:01,896 [main] devpinoyLogger  - Clicked on Find Flights button.

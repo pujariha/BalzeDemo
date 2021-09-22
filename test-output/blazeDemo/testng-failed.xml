@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [blazeDemo]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Book Flight Ticket using Visa card(failed)">
+    <classes>
+      <class name="testCases.BookFlight">
+        <methods>
+          <include name="bookFlightTicketUsingVisaCard" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.BookFlight -->
+    </classes>
+  </test> <!-- Book Flight Ticket using Visa card(failed) -->
+</suite> <!-- Failed suite [blazeDemo] -->
